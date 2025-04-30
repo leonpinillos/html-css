@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+                    }            
+                    .especial{
+                background-color: rgb(248, 235, 235);
+            }
+        
+        .especial::before{
+            content: '✏';
+            
+        }
+        .especial::after{
+            content: '✏';
+        }
+
+        
+    </style>
+</head>
+<body>
+ <h1>personalizando links</h1>
+ <ul>
+    <li><a href="http://github.com/leonpinillos" target="_blank">repositorio do github</a></li>
+    <li><a href="http://youtube.com/@hermanodabahia-dw1vg" target="_blank" class="especial">canal do youtube</a></li>
+ </ul>   
+</body>
+</html>
